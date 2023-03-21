@@ -1,7 +1,7 @@
 const { Telegraf } = require("telegraf");
 const { message } = require('telegraf/filters');
 const chatClient = require("./chat.js");
-const BOT_TOKEN = "###########"
+const { BOT_TOKEN } = require("./config.js");
 const bot = new Telegraf(BOT_TOKEN);
 bot.start((ctx) => ctx.reply('Welcome'));
 bot.help((ctx) => ctx.reply('Send me a sticker'));

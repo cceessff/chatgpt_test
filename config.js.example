@@ -1,0 +1,2 @@
+exports.CHATGPT_KEY="########";
+exports.BOT_TOKEN="###########";
